@@ -25,7 +25,6 @@ public class Main {
 		Message sentMsg = null;
 		FileStorage files = new FileStorage();
 
-//		files.printFilesAndIndexes();
 		while (true) {
 			try (
 					Socket socket = servSock.accept();
